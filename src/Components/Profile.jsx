@@ -14,7 +14,7 @@ const Profile = () => {
                         
                     </h1>
                     <p className="text-sm text-gray-600 dark:text-neutral-400">
-                        Graphic Designer, Web designer/developer
+                         Web designer | Laravel
                     </p>
                 </div>
             </div>
