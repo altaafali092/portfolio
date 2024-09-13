@@ -3,18 +3,22 @@ import React from 'react'
 const projects = [
     {
         id :1,
-        imageUrl:'https://images.unsplash.com/photo-1656618724305-a4257e46e847?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+        imageUrl:'https://images.unsplash.com/photo-1656618724305-a4257e46e847?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        url:'https://doarkhajura.narc.gov.np/?language=ne#/'
     },
     {
         id:2,
-        imageUrl:'https://images.unsplash.com/photo-1616427592793-67b858804534?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+        imageUrl:'https://images.unsplash.com/photo-1616427592793-67b858804534?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        url:'https://github.com/altaafali092/job_portal'
     },
     {
         id:3,
-        imageUrl:'https://images.unsplash.com/photo-1616427592793-67b858804534?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+        imageUrl:'https://images.unsplash.com/photo-1616427592793-67b858804534?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        url:'https://demoerp.palikaerp.com/'
     },{
         id:4,
-        imageUrl:'https://images.unsplash.com/photo-1616427592793-67b858804534?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+        imageUrl:'https://images.unsplash.com/photo-1616427592793-67b858804534?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        url :'https://nlbolahan.gov.np/?language=ne'
     }
 ]
 const Projects = () => {
@@ -25,8 +29,8 @@ const Projects = () => {
             <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 mx-[28rem]">
             {projects.map((project) => (
           <a
-            key={project.id} // Use unique IDs as keys
-            href="#"
+            key={project.id} 
+            href={project.url} target='blank'
             className="group block relative overflow-hidden rounded-lg"
           >
             <img
@@ -42,7 +46,8 @@ const Projects = () => {
                   <path d="m21 21-4.3-4.3" />
                 </svg>   
 
-                <span className="text-xs">View</span>
+                <span className="text-xs">
+                <a href={project.url} target='blank'>View</a></span>
               </div>
             </div>
           </a>

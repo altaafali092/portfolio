@@ -8,16 +8,15 @@ import WorkExperience from './Components/WorkExperience'
 
 function App() {
 
-
   return (
     <>
-    <Navbar/>
-    <Profile/>
-    <Projects/>
-    <Skill/>
-    <WorkExperience/>
-    <Education/>
-     
+      <Navbar />
+      <Profile />
+      <Projects />
+      <Skill />
+      <WorkExperience />
+      <Education />
+
     </>
   )
 }
