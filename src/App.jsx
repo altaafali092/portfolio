@@ -1,4 +1,5 @@
 
+import Contact from './Components/Contact'
 import Education from './Components/Education'
 import Navbar from './Components/Navbar'
 import Profile from './Components/Profile'
@@ -16,6 +17,7 @@ function App() {
       <Skill />
       <WorkExperience />
       <Education />
+      <Contact/>
 
     </>
   )
