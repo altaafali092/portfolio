@@ -19,7 +19,7 @@ const education = [
 ]
 const Education = () => {
     return (
-        <div className='mx-[28rem] mt-8'>
+        <div className='mx-4 md:mx-16 lg:mx-[28rem] mt-8'>
             <h2 className='text-xl font-bold text-gray-400 mb-4'>Education</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
                 {education.map((education) => (

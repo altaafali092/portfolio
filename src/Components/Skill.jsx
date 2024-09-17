@@ -10,7 +10,7 @@ const Skill = () => {
     <div>
 
 
-      <div class="space-y-3 mx-[28rem] mt-4 mb-8">
+      <div class="space-y-3  mx-4 md:mx-16 lg:mx-[28rem] mt-4 mb-8">
         <h2 className='text-xl font-bold text-gray-400 text-start mt-8'>Skills</h2>
 
         <dl class="flex flex-col sm:flex-row gap-1">

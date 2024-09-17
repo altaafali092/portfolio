@@ -21,7 +21,7 @@ const work = [
 ]
 const WorkExperience = () => {
   return (
-    <div className='mx-[28rem]'>
+    <div className='mx-4 md:mx-16 lg:mx-[28rem]'>
       {work.map((work) => (
         <div class="group relative flex gap-x-5 ">
 

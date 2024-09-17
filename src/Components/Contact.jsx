@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='mx-[28rem] mt-8 mb-4'>
+    <div className='mx-4 md:mx-16 lg:mx-[28rem] mt-8 mb-4'>
         <div className='flex justify-center items-center'>
             <button className='bg-black text-white p-2 rounded-lg text-sm px-4'>Contact</button> 
         </div>
