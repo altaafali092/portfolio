@@ -11,6 +11,8 @@ const Contact = () => {
             <h2 className='text-2xl text-gray-400 text-center'>Want to chat? Just shoot me a dm <span className='text-blue-400 hover:underline'><a href="">with a direct question on Linkedin</a></span>  and I'll respond whenever I can. I will ignore all soliciting.</h2>
         </div>
     </div>
+    
+
   )
 }
 
